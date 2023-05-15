@@ -1,0 +1,20 @@
+.rt-list-item {
+  margin-top: 5px;
+}
+.rt-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.rt-img {
+  width: 80px;
+}
+
+.selected-rating {
+  color: #0967d2;
+}

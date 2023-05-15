@@ -1,0 +1,20 @@
+.ct-list-item {
+  margin-top: 5px;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.ct-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.selected-category {
+  color: #0967d2;
+}

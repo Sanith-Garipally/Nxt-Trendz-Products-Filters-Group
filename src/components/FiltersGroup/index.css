@@ -1,0 +1,66 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.input-container {
+  position: relative;
+}
+.searchInput {
+  outline: none;
+  border: none;
+  background-color: #f1f5f9;
+  color: #475569;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.search-icon {
+  position: absolute;
+  top: 8px;
+  right: 10%;
+}
+
+.ct-title {
+  color: #12022f;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ct-list-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.rt-list-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.rt-title {
+  color: #12022f;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.clear-filter-btn {
+  border: 1px solid #0967d2;
+  background: transparent;
+  color: #0967d2;
+  border-radius: 5px;
+  font-size: 9px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 20px;
+}
